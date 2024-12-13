@@ -2,6 +2,8 @@ package agenzia;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class AgenziaImmobiliare {
     private ArrayList<Casa> agenzia;
@@ -40,6 +42,6 @@ public class AgenziaImmobiliare {
         return s;
     }
     public void sortCase(){
-        ArrayList.sort(this.agenzia);
+        Collections.sort(agenzia);
     }
 }

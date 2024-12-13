@@ -23,6 +23,7 @@ public class Main {
        System.out.println(agenziaImmobiliare);
 
        System.out.println("Ordine in base a superfice\n");
+       agenziaImmobiliare.sortCase();
        System.out.println(agenziaImmobiliare);
     }
 }
